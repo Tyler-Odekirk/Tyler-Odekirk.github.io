@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5d89ba;
+    color: #13165f;
+}
+
+nav {
+    text-align: left;
+    padding: 1.5em;
+    font-weight: bold;
+    background-color: #127c12;
+    background-image: linear-gradient(to bottom, #5d89ba, #127c12);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    transition: color 2s linear;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-image: url(Mirrorlake3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+section {
+    float: left;
+    width: 50%;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    width: 100px;
+    padding-right: 4px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #13165f;
+    color: rgb(64, 87, 18);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Georgia, serif;
+    background-image: linear-gradient(to bottom, #ffffff, #5d89ba);
+}
+
+tr:first-of-type {
+    background-color: #13165f;
+    color: #ffffff;
+}
+
+th {
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+td {
+    border: 2px solid #13165f;
+    padding: 1em;
+}
